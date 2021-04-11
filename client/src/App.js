@@ -9,6 +9,7 @@ import Header from './components/Header'
 // import Pages
 import Search from './pages/Search';
 import Saved from './pages/Saved';
+import Detail from './pages/Detail';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <br/>
         <Route exact path='/' component={Search}/>
         <Route exact path='/saved' component={Saved}/>
+        <Route exact path='/books/:id'>
+          <Detail />
+        </Route>
       </div>
     </Router>
   );

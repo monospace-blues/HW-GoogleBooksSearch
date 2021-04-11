@@ -10,7 +10,7 @@ const bookSeed = [
     title: "Hello World",
     author: "admin",
     description:
-      "Welcome to your first post! To create posts create a title and body. Don't forget to include your screen name!"
+      "Welcome to your first post! To create posts create a title and body. Don't forget to include your screen name!!!"
   },
   {
     title: "The Second Post",
